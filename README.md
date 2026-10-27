@@ -43,7 +43,16 @@ The projects I have worked on, where most of the contribution is mine:
    With the help of GenAI tools, I built the dashboard from scratch to explore support benchmarks like ticket volume, SLA performance, top requestors, components, labels, escalations, docs outcomes, and how support load changes over time.
 
    It is also a personal experiment in using AI not just for snippets, but for the whole flow: planning, implementation, debugging, UI decisions, and turning a vague idea into something usable.
+   
+3. https://github.com/NeurlK/exam-trainer
+   A practice app for a TestGorilla-style admission exam, in Georgian and English.
 
+   Full mock exams with the real timing rules, single-module drills, and a "weak spots" mode that
+   builds practice sets from the question types you got wrong before. 345 bilingual questions, and
+   a validator that recomputes every computable answer, so the answer key can't quietly drift.
+
+   No dependencies and no backend: `npm start` runs it locally, and your answers stay in your own browser.
+   Another end-to-end GenAI experiment, from question writing to a Georgian wording audit, with the validator as the safety net.
 ---
 
 <h2 align="center">Another Gif ⬇</h2>
